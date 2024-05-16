@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        weaponApp();
+    }
+
+    public static void weaponApp() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Bullet count : ");
         int bulletCount = scanner.nextInt();
@@ -23,7 +27,6 @@ public class Main {
                 case 2 -> ak47.changeComb();
             }
         }
-
     }
 
     public static void showAction() {
